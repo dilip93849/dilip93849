@@ -17,6 +17,7 @@
             font-family: Arial, sans-serif;
             background-color: #f0f0f0;
             padding: 20px;
+            background-color: rgb(235, 205, 200);
         }
 
         .container {
@@ -71,6 +72,61 @@
         .my-info i {
             margin-right: 10px;
             color: #555;
+        }
+
+        /* Media query for max width of 500px (small devices) */
+        @media (max-width: 500px) {
+            body {
+                padding: 10px;
+                background-color: rgb(239, 163, 150);
+            }
+
+            .container {
+                padding: 15px;
+            }
+
+            input, textarea, button {
+                font-size: 14px;
+                padding: 8px;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+
+            .my-info p {
+                font-size: 0.9em;
+            }
+
+            .my-info i {
+                margin-right: 5px;
+            }
+        }
+
+        /* Media query for min width of 501px and max width of 800px (medium devices) */
+        @media (min-width: 501px) and (max-width: 800px) {
+            body {
+                padding: 15px;
+                background-color: rgb(233, 116, 96);
+            }
+
+            .container {
+                padding: 20px;
+                max-width: 100%;
+            }
+
+            h2 {
+                font-size: 22px;
+            }
+
+            input, textarea, button {
+                font-size: 16px;
+                padding: 10px;
+            }
+
+            .my-info p {
+                font-size: 1em;
+            }
         }
     </style>
 </head>
