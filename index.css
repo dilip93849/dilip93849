@@ -39,13 +39,13 @@ button {
     margin: 20px auto;
     padding: 10px 20px;
     cursor: pointer;
-    background-color: #fff;
-    color: #333;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease, transform 0.3s ease;
+    border-radius: 8px;
     animation: fadeIn 1s forwards;
 }
+button:hover {
+    color: #ff6347; 
+}
+
 #portfolio {
     margin-top: 40px;
 }
@@ -63,7 +63,6 @@ button {
     border-radius: 8px;
     width: 30%;
     text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     animation: fadeIn 1s forwards;
 }
 @keyframes fadeIn {
